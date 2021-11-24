@@ -2,18 +2,18 @@ import styled, { css } from 'styled-components';
 
 export const Button = styled.button`
   display: inline-block;
-  border-radius: 3px;
-  padding: 0.5rem 0;
-  margin: 0.5rem 1rem;
-  width: 11rem;
   background: transparent;
-  color: black;
-  border: 2px solid black;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+  width: 11rem;
 
   ${props =>
     props.primary &&
     css`
-      background: white;
-      color: black;
+      background: palevioletred;
+      color: white;
     `}
 `;
